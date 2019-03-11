@@ -10,7 +10,7 @@
     "test:e2e": "vue-cli-service test:e2e",
     "dev": "parcel index.html -p 18096 --open --no-cache",
     "watch": "parcel watch public/index.html",
-    "production": "parcel build public/index.html --no-cache"
+    "prod": "parcel build index.html --no-cache --public-url /"
   },
   "dependencies": {
     "vue": "^2.6.6",
